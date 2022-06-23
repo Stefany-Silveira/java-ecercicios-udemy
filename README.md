@@ -1,1 +1,1 @@
-# java-exercise-udemy
+# java-exercises-udemy
