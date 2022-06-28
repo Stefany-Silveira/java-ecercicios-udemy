@@ -13,8 +13,12 @@ public class DataTeste {
         d2.mes = 07;
         d2.ano = 1992;
 
-        System.out.println("A primeira data é: " + d1.dia + d1.mes + d1.ano);
-        System.out.println("A segunda data é: " + d2.dia + d2.mes + d2.ano);
+        String dataFormatada1 = d1.obterDataFormata();
 
+        System.out.println(dataFormatada1);
+        System.out.println(d2.obterDataFormata());
+
+        d1.imprimirDataFormatada();
+        d2.imprimirDataFormatada();
     }
 }
