@@ -1,5 +1,7 @@
 package classe;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Data {
     int dia;
     int mes;
