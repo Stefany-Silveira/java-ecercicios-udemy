@@ -15,7 +15,7 @@ public class Exercicio {
 
         System.out.println(Arrays.toString(notasAlunoA));
         System.out.println(notasAlunoA[0]);
-        System.out.println(notasAlunoA[notasAlunoA.length - 1]);
+        System.out.println(notasAlunoA[notasAlunoA.length - 1 ]);
 
         double totalAlunoA = 0;
         for (int i = 0; i < notasAlunoA.length; i++){
