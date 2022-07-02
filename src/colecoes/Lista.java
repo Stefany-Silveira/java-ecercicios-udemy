@@ -20,6 +20,7 @@ public class Lista {
         System.out.println(lista.remove(new Usuario("Manu")) );
 
         System.out.println("Tem? " + lista.contains(new Usuario("Lia")));
+        System.out.println("Tem? " + lista.contains(u1));
 
         for (Usuario u: lista){
             System.out.println(u.nome);
