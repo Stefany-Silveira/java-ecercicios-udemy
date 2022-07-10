@@ -1,18 +1,8 @@
 package orientacaoObjeto.polimorfismo;
 
-public class Feijao {
-
-    private double peso;
+public class Feijao extends Comida {
 
     public Feijao(double peso){
-        setPeso(peso);
-    }
-
-    public double getPeso() {
-        return peso;
-    }
-
-    public void setPeso(double peso) {
-        this.peso = peso;
+        super(peso);
     }
 }
