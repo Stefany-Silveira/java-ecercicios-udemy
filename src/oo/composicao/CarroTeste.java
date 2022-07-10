@@ -1,5 +1,7 @@
 package oo.composicao;
 
+import oo.composicao.Carro;
+
 public class CarroTeste {
     public static void main(String[] args) {
 
