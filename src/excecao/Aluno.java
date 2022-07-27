@@ -1,7 +1,7 @@
 package excecao;
 
 public class Aluno {
-    final String nome;
+    public final String nome;
     public final double nota;
     public final boolean bomComportamento;
 
