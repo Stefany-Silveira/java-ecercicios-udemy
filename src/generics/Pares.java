@@ -5,7 +5,6 @@ import java.util.*;
 public class Pares<C extends Number, V> {
 
     private final Set<Par<C, V>> itens = new LinkedHashSet<>();
-
     public void adicionar(C chave, V valor) {
         if (chave == null) return;;
 
